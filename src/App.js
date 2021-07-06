@@ -2,7 +2,7 @@ import './App.css';
 import ContactUs from './components/contactUs/ContactUs';
 import CreateAccount from './components/createAccount/CreateAccount';
 import Home from './components/homePage/Home';
-import Gaming from './components/gamingzone/Gaming';
+import Gaming from './components/homePage/Gaming';
 import Login from './components/login/Login';
 import Cart from './components/cart/Cart';
 import Navbar from './components/Navbar';
