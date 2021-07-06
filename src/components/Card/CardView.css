@@ -1,0 +1,49 @@
+
+.productscreen {
+    max-width: 1400px;
+    margin: 1rem auto;
+    display: flex;
+  }
+  .productscreen__left {
+    display: flex;
+    flex: 0.8;
+  }
+.left__image {
+    width:45vw;
+    height:60vh;
+    margin: 1rem;
+    flex: 0.6;
+  }
+  .left__info {
+    margin: 2rem;
+    flex: 0.4;
+    background: #fff;
+    height: fit-content;
+    font-size: 0.9rem;
+  }
+  
+  .left__name {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  
+  .contactus-button{
+      text-align: center;
+      margin: 2.5%;
+  border: 0;
+  width: 34%;
+  outline: none;
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+  font-size:small;
+  cursor: pointer;
+  border-radius: 4px;
+  color: rgb(121, 120, 120);
+  
+  }
+  .contactus-button:hover
+{
+       background-color: rgb(214, 212, 212);
+       color: rgb(255, 255, 255);
+    
+}

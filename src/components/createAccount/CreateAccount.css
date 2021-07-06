@@ -1,0 +1,56 @@
+.CreateAccount_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    min-width: 400px;
+    min-height: 500px;
+    border: 1px solid grey;
+    position: absolute;
+    border-radius: 6px;
+    background-color: rgb(245, 249, 253);
+    z-index: 4;
+    opacity: 1;
+    float: left;
+    margin-left: 60px;
+    flex-wrap: wrap;
+}
+
+.CreateAccount_container{
+
+display: flex;
+justify-content: center;
+ align-items: center; 
+text-align: center;
+float: left;
+width: 100vw;
+height: 100vh;
+position: relative;
+/* opacity: 0.5; */
+z-index: 2;
+/* background-image: url('https://www.yourfreecareertest.com/wp-content/uploads/2017/10/IT_manager.jpg'); */
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgb(237, 243, 248);
+}
+.createaccount_button{
+    padding:5px;
+    font-size: 16px;
+    /* width: 120px; */
+    border-radius: 6px;
+    border: 1px solid grey;
+    cursor:pointer;
+}
+
+.createaccount_input{
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid grey;
+    margin: 5px;
+}
+.first_para{
+    margin-left: 21px;
+}

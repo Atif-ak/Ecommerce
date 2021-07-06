@@ -1,0 +1,67 @@
+.left_image {
+  width: 13vw;
+  height: 20vh;
+  margin: 1rem;
+  flex: 0.6;
+  border-radius: 3px;
+}
+.image_div {
+  width: 20vw;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+#cart_button {
+  text-align: center;
+  margin: 2.5%;
+  border: 0;
+  width: 150px;
+  outline: none;
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+  font-size: small;
+  cursor: pointer;
+  border-radius: 4px;
+  color: rgb(121, 120, 120);
+}
+#cart_button:hover {
+  background-color: rgb(214, 212, 212);
+  color: rgb(255, 255, 255);
+}
+.main_div {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5rem;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  font-family: "Merriweather", serif;
+}
+.main_div:hover {
+  box-shadow: 2px 5px 5px 0px rgba(192, 190, 190, 0.75);
+  -webkit-box-shadow: 2px 5px 5px 0px rgba(192, 190, 190, 0.75);
+  -moz-box-shadow: 2px 5px 5px 0px rgba(192, 190, 190, 0.75);
+}
+.sec_div {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem;
+}
+.in {
+  margin: 0.5rem;
+}
+.addItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  padding: 20px;
+  width: 55vw;
+  height: 59vh;
+
+  background-size: cover;
+  background-image: url("https://www.seekpng.com/png/detail/117-1170538_404-your-cart-is-empty.png");
+}
