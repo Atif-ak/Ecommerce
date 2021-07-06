@@ -1,0 +1,141 @@
+.navBox{
+    width: 100vw;
+    height: 19vh;
+   
+    display: flex;
+    justify-content: space-between;
+   
+    color: whitesmoke;
+    
+}
+
+.logo-img{
+    height: 10vh;
+    width: 8vw;
+    color: whitesmoke;
+    margin: 7%;
+
+}
+.logo > a{
+    color: whitesmoke;
+
+}
+.first-split{
+    display: flex;
+list-style: none;
+color: whitesmoke;
+
+
+}
+.first-split > li{
+margin: 1%;
+font-size: larger;
+
+}
+.first-split > li >a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.split{
+    display: flex;
+    list-style: none;
+  
+
+}
+.split > li{
+    font-size:medium;
+}
+.split > li > a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.split > li > a > span{
+ 
+ margin-left: 7px;
+}
+.cart-link{
+    /* background-color: rgb(133, 124, 124); */
+    display: flex;
+     margin: 26px; 
+     margin-top: -8px;
+     margin-bottom: 12px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.cart-batch{
+    color: white;
+    /* background-color: #f4f4f4; */
+    border-radius: 50%;
+    margin-left: 8px;
+    
+}
+.cart-link:hover{
+    background-color: rgb(67, 63, 92);
+
+}
+.login-link{
+    /* background-color: rgb(133, 124, 124); */
+    padding: 8px;
+    border-radius: 6px;
+    margin: 12px;
+}
+.login-link:hover{
+    background-color: rgb(67, 63, 92);
+ 
+}
+
+.home-link{
+    /* background-color: rgb(133, 124, 124); */
+    padding: 5px;
+    border-radius: 6px;
+    margin: 12px;
+}
+.home-link:hover{
+    background-color: rgb(67, 63, 92);
+
+}
+.first-div{
+    display: flex;
+   
+}
+.contact-link{
+    
+    /* background-color: rgb(133, 124, 124); */
+    padding: 5px;
+    border-radius: 6px;
+    margin-left: 12px;
+
+}
+.contact-link:hover{
+    background-color: rgb(67, 63, 92);
+
+}
+.gamings-link{
+   
+    /* background-color: rgb(133, 124, 124); */
+    padding: 5px;
+    border-radius: 6px;
+    /* margin: 12px; */
+}
+.gamings-link:hover{
+    background-color: rgb(67, 63, 92);
+}
+
+
+
+.navmain{
+    background-image: url('./space.jpg');
+
+}
+
+.nav-heading{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+     font-size:3.1rem;
+     margin-bottom: 2px;
+     height: 20vh;
+    
+}
