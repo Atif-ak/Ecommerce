@@ -12,7 +12,7 @@ const CardView = () => {
   const currProd = location.pathname.split("/")[2];
 
   useEffect(() => {
-    axios.get("http://localhost:9000/").then((data) => {
+    axios.get("https://ecommercefirstbackendserver.herokuapp.com/").then((data) => {
       setProdDesc(data.data[`${currProd}`]);
       // console.log(data.data[`${currProd}`])
       if (localStorage.getItem("cart") === null) {
